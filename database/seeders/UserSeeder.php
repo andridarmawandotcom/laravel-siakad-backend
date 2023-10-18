@@ -22,7 +22,7 @@ class UserSeeder extends Seeder
             'email' => 'andri@dev.com',
             'email_verified_at' => now(),
             'password' => Hash::make('123456'),
-            'roles' => 'mahasiswa',
+            'roles' => 'admin',
         ]);
     }
 }
